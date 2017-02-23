@@ -1,5 +1,5 @@
-const devModule = require('./webpack-config/dev');
-const prodModule = require('./webpack-config/prod');
+const devModule = require('./config/dev');
+const prodModule = require('./config/prod');
 
 let finalModule = {};
 let ENV = process.env.NODE_ENV;     //此处变量可由命令行传入
